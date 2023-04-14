@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Administración de fórmulas</title>
+        <link rel="stylesheet" href="estilo_altas_formula_nuevo.css" type="text/css">
+        <link rel="icon" type="image/x-icon" href="images/icono.png">
+    </head>
+    <body>
+        <h1 class="titulo">Administración de fórmulas</h1>
+        <h2>Nombre de la receta:</h2>
+        <h3 class="subEnca">Ingredientes</h3>
+        <h3 class="subEnca subEnca2">Cantidad</h3>
+        <button class="button button3" onclick="window.location.href='index.html'">Página principal</button>
+
+        <form name="f_formulas" method="get">
+            <input name="nom_re" type="text" size="40" class="camp">
+            <input name="ingr_re" type="text" size="25" class="campo">
+            <input name="cant_re" type="number" size="10" class="campo camp2">
+            <div id="archivo" class="historial"> </div>
+            <input type="submit" value="Nuevo ingrediente" formaction="modificar_formula.php" name="Agregar" class="button button2">
+            <input type="submit" value="Borrar fórmula" formaction="borrar_formula.php" class="button" >
+        </form>
+
+        
+    </body>
+</html>

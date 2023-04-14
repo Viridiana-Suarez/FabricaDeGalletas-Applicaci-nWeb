@@ -1,0 +1,161 @@
+body{
+    background-image: url('images/Fondo_altas_form.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Cooper Black';
+    font-size: 70px;
+    text-align: center;
+    color:lightpink;
+    background-color: maroon;
+}
+
+h2{
+    font-family: 'Cooper Black';
+    font-size: 22px;
+    text-align: center;
+    color:pink;
+    background-color:saddlebrown;
+    position: relative;
+    padding: 13px 24px;
+    left: 160px;
+    top: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.subEnca{
+    font-family: 'Cooper Black';
+    font-size: 25px;
+    text-align: center;
+    color:pink;
+    background-color:saddlebrown;
+    position: relative;
+    padding: 13px 24px;
+    left: 160px;
+    top: -20px;
+    width: 55%;
+    text-align: center;
+    display:inline-block;
+}
+
+.subEnca2{
+    left: 165px;
+    width: 10%;
+}
+
+.button{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cooper Black';
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 73%;
+    display:block;
+    position: relative;
+    left: 155px;
+    top: -100px;
+}
+
+.button2{
+    top:-110px;
+    left:155px;
+    color:palevioletred;
+    background-color: white;
+}
+
+.button3{
+    top: 260px;
+    width: 50%;
+    left: 310px;
+    background-color:chocolate;
+    color: white;
+}
+
+.button:hover{
+    background-color:brown;
+    color:moccasin;
+}
+
+.campo{
+    font-family: 'Cooper Black';
+    font-size: 25px;
+    text-align: center;
+    color: saddlebrown;
+    background-color:linen;
+    position: relative;
+    padding: 13px 24px;
+    left: 165px;
+    top: -135px;
+    width: 54%;
+    text-align: center;
+    display:inline-block;
+}
+
+.camp2{
+    left: 180px;
+    width: 9%;
+}
+
+.camp{
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    text-align: center;
+    color: saddlebrown;
+    background-color:linen;
+    padding: 13px 24px;
+    position: relative;
+    left: 470px;
+    top: -208px;
+    width: 45%;
+    text-align: center;
+}
+
+.historial{
+    font-family: 'Rockwell';
+    font-size: 25px;
+    position: relative;
+    top: -120px;
+    left: 160px;
+    width: 72%; 
+    height: 100px; 
+    overflow: auto; 
+    background-color:mistyrose;
+    padding: 5px;
+}
+
+.campPHP{
+    top: -165px;
+}
+
+.buttonPHP{
+    top: -60px;
+}
+
+.histoPHP{
+    top:-80px;
+}
+
+.ingrePHP{
+    top:-90px;
+}
+
+.button2PHP{
+    top: -70px;
+}
+
+.button3PHP{
+    top: -50px;
+}
+
+.titPHP{
+    top: -50px;
+}

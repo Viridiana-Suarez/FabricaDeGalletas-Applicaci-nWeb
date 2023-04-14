@@ -1,0 +1,103 @@
+body{
+    background-image: url('images/Fondo_altas_ingre.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Cooper Black';
+    font-size: 70px;
+    text-align: center;
+    color:lightpink;
+    background-color: maroon;
+}
+
+.subEnca{
+    font-family: 'Cooper Black';
+    font-size: 25px;
+    text-align: center;
+    color:pink;
+    background-color:saddlebrown;
+    position: relative;
+    padding: 13px 24px;
+    left: 160px;
+    top: -20px;
+    width: 55%;
+    text-align: center;
+    display:inline-block;
+}
+
+.subEnca2{
+    left: 165px;
+    width: 10%;
+}
+
+.campo{
+    font-family: 'Cooper Black';
+    font-size: 25px;
+    text-align: center;
+    color: saddlebrown;
+    background-color:linen;
+    position: relative;
+    padding: 13px 24px;
+    left: 167px;
+    top: -70px;
+    width: 54%;
+    text-align: center;
+    display:inline-block;
+}
+
+.camp2{
+    left: 177px;
+    width: 9%;
+}
+
+.campPHP{
+    top: -15px;
+    left: 167px;
+}
+
+.campPHP2{
+    top:-15px;
+    left: 177px;
+    width: 9%;
+}
+
+.boton{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cooper Black';
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 50%;
+    display:block;
+    position: relative;
+    left: 330px;
+    top: -50px;
+}
+
+.boton2{
+    top: 120px;
+    width: 50%;
+    background-color:chocolate;
+    color: white;
+}
+
+.boton:hover{
+    background-color:brown;
+    color:moccasin;
+}
+
+.botonPHP{
+    top: 15px;
+}
+
+.boton2PHP{
+    top: 40px;
+}

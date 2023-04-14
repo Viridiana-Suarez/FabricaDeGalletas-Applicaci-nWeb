@@ -1,0 +1,22 @@
+body{
+    background-image: url('images/Fondo_preparacion.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Cooper Black';
+    font-size: 70px;
+    text-align: center;
+    color:lightpink;
+    background-color: maroon;
+}
+
+h2{
+    font-family: 'Cooper Black';
+    font-size: 40px;
+    text-align: center;
+    color:lightpink;
+    background-color:brown;
+}

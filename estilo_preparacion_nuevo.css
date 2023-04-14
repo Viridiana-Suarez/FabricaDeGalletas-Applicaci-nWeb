@@ -1,0 +1,56 @@
+body{
+    background-image: url('images/Fondo_preparacion.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Cooper Black';
+    font-size: 70px;
+    text-align: center;
+    color:lightpink;
+    background-color: maroon;
+}
+
+h2{
+    font-family: 'Cooper Black';
+    font-size: 40px;
+    text-align: center;
+    color:lightpink;
+    background-color:brown;
+    width: 80%;
+    position: relative;
+    left: 135px;
+}
+
+.button{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cooper Black';
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 73%;
+    display:block;
+    position: relative;
+    left: 180px;
+    top: 10px;
+    
+}
+
+.button2{
+    top: 20px;
+    left:180px;
+    color:palevioletred;
+    background-color: white;
+}
+
+.button:hover{
+    background-color:brown;
+    color:moccasin;
+}
